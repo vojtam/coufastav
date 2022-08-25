@@ -6,11 +6,13 @@ module.exports = {
       sm: '480px',
       md: '768px',
       lg: '976px',
+      vl: '1140px',
       xl: '1440px'
     },
     minHeight: {
       '3/10': '30%',
       '1/2': '50%',
+      '5/10': '55vh',
       '6/10': '60vh',
       '7/10': '70%',
       '8/10': '80%',
@@ -46,6 +48,8 @@ module.exports = {
         'dark-green': "#00685a",
         'border-gray': "#CBD2DE",
         'light-blue': "#F5F9FD",
+        'footer-gray': "#181F2A",
+        'footer-border': "#262D39",
       },
       boxShadow: {
         'btn-shadow': "0 16px 32px -16px rgba(255,94,20,.64)",
